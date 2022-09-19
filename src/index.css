@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #2B283A
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #918E9B
+}
+
+header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px #f7bcbc;
+  margin-bottom: 20px;
+}
+
+.header--image {
+  height: 30px;
+}
+
+.header--title {
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+}
+.container--left {
+  display: flex;
+  justify-content: center;
+}
+
+.trip--image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 20px 20px 20px 0px
+}
+
+.container--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trip--location-info{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.trip--location-span {
+  padding: 0px 10px
+}
+
+.trip--location-name {
+  padding: 10px 0px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.trip--dates {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #bbb;
 }
